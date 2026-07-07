@@ -23,72 +23,36 @@ Our **Fire Fighter Robot Car** is basically an **Arduino Uno based robotic syste
 
 ## Project Components:
 
-# Hardware Specifications
 
-### 🔹 Controller
+| **Category**       | **Component**               | **Purpose**                                         |
+| ------------------ | --------------------------- | --------------------------------------------------- |
+| Controller         | Arduino Uno                 | Main controller of the robot                        |
+| Sensor             | Flame Detection Sensor      | Detects the presence of fire                        |
+| Sensor             | IR Sensor                   | Detects obstacles during navigation                 |
+| Motion             | Motor Driver Module         | Controls the speed and direction of the motors      |
+| Motion             | Gear Motors                 | Drive the movement of the robot                     |
+| Mechanical         | Robotic Chassis             | Provides the base structure of the robot            |
+| Mechanical         | Wheels                      | Enable the robot to move                            |
+| Fire Extinguishing | Water Tank                  | Stores water for firefighting                       |
+| Fire Extinguishing | Water Pump                  | Pumps water to extinguish the fire                  |
+| Fire Extinguishing | Spray Tube                  | Sprays water onto the fire                          |
+| Communication      | Bluetooth Module            | Enables remote control using a mobile device        |
+| Monitoring         | Camera Module               | Provides real-time monitoring                       |
+| Power              | Rechargeable Battery        | Supplies power to the robot                         |
+| Power              | Battery Charger             | Recharges the battery                               |
+| Circuit            | Breadboard                  | Used for prototyping and circuit connections        |
+| Circuit            | PCB (Printed Circuit Board) | Provides permanent circuit connections              |
+| Circuit            | Cables and Connectors       | Connect electronic components                       |
+| Circuit            | LEDs                        | Indicate the robot's operating status               |
+| Circuit            | Push Buttons                | Provide manual input and testing                    |
+| Circuit            | Switch                      | Turns the power on or off                           |
+| Circuit            | Diodes                      | Protect the circuit from reverse current            |
+| Circuit            | Integrated Circuits (ICs)   | Support electronic control functions                |
+| Software           | Arduino IDE                 | Used to write, compile, and upload Arduino programs |
+| Software           | Keil µVision IDE            | Used for embedded system programming                |
+| Software           | Programming Language: C     | Used to develop the robot's control logic           |
 
-| **Component** | **Purpose**     |
-| ------------- | --------------- |
-| Arduino Uno   | Main controller |
 
-### 🔹 Sensors
-
-| **Component**          | **Purpose**       |
-| ---------------------- | ----------------- |
-| Flame Detection Sensor | Detects fire      |
-| IR Sensor              | Detects obstacles |
-
-### 🔹 Actuators & Motion
-
-| **Component**       | **Purpose**                        |
-| ------------------- | ---------------------------------- |
-| Motor Driver Module | Controls the motors                |
-| Gear Motors         | Provides robot movement            |
-| Water Pump          | Pumps water to extinguish the fire |
-| Spray Tube          | Sprays water onto the fire         |
-
-### 🔹 Communication & Monitoring
-
-| **Component**    | **Purpose**              |
-| ---------------- | ------------------------ |
-| Bluetooth Module | Enables mobile control   |
-| Camera Module    | Provides live monitoring |
-
-### 🔹 Mechanical Components
-
-| **Component**   | **Purpose**                  |
-| --------------- | ---------------------------- |
-| Robotic Chassis | Supports the robot structure |
-| Wheels          | Enable robot movement        |
-| Water Tank      | Stores water                 |
-
-### 🔹 Power Supply
-
-| **Component**        | **Purpose**                 |
-| -------------------- | --------------------------- |
-| Rechargeable Battery | Supplies power to the robot |
-| Battery Charger      | Charges the battery         |
-
-### 🔹 Circuit Components
-
-| **Component**               | **Purpose**                            |
-| --------------------------- | -------------------------------------- |
-| Breadboard                  | Used for circuit prototyping           |
-| PCB (Printed Circuit Board) | Provides permanent circuit connections |
-| Cables and Connectors       | Connect electronic components          |
-| LEDs                        | Indicate the robot's status            |
-| Push Buttons                | Provide manual input                   |
-| Switch                      | Turns the power on or off              |
-| Diodes                      | Protect the circuit                    |
-| Integrated Circuits (ICs)   | Support electronic control             |
-
-## 💻 Software Specifications
-
-| **Software**            | **Purpose**                                         |
-| ----------------------- | --------------------------------------------------- |
-| Arduino IDE             | Used to write, compile, and upload Arduino programs |
-| Keil µVision IDE        | Used for embedded system programming                |
-| Programming Language: C | Used to develop the robot's control logic           |
 
 
 

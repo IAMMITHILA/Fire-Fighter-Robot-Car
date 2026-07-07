@@ -13,12 +13,12 @@ Our team **Tech Lightning** consisted of 7 members. My fellow team members are:
 2. Mst. Fatematuzzohura Sathi ; https://github.com/FatematuzzohuraSathi
 3. Easin Arafat Jibon ; https://github.com/Jibonjr13
 4. Shahin Rahman ; https://github.com/shahin2299
-5. Rubama Islam
+5. Rubama Islam; https://www.linkedin.com/in/rubama-islam-b0a2aa29a/
 6. Rahul sheikh
 
 ## Project Overview:
 
-Our **Fire Fighting Robo Car** is basically an **Arduino Uno based robotic system** designed to automatically detect and extinguish fires in hazardous environments where human access may be difficult or unsafe. The robo car can also be controlled remotely using a mobile device and an onboard camera provides live monitoring of the surrounding area.
+Our **Fire Fighter Robot Car** is basically an **Arduino Uno based robotic system** designed to automatically detect and extinguish fires in hazardous environments where human access may be difficult or unsafe. The robot car can also be controlled remotely using a mobile device and an onboard camera provides live monitoring of the surrounding area.
 
 
 

@@ -1,4 +1,4 @@
-# Fire-Fighter-Robot Car
+# Fire Fighter Robot Car
 
 Bangladesh is a densely populated country where fire incidents occur frequently. It often causing significant damage to lives and property. So to address this challenge me and my team **Tech Lightning** developed a **Fire Fighter Robot Car**.
 

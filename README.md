@@ -20,41 +20,47 @@ Our team **Tech Lightning** consisted of 7 members. My fellow team members are:
 
 Our **Fire Fighter Robot Car** is basically an **Arduino Uno based robotic system** designed to automatically detect and extinguish fires in hazardous environments where human access may be difficult or unsafe. The robot car can also be controlled remotely using a mobile device and an onboard camera provides live monitoring of the surrounding area.
 
+## How It Works
+
+1. The **Arduino Uno** acts as the main controller and continuously monitors the connected sensors.
+2. The **flame detection sensor** detects the presence of fire and sends a signal to the Arduino Uno.
+3. After detecting the fire, the robot moves toward the fire source.
+4. During navigation, the **IR sensor** detects obstacles to help the robot move safely.
+5. When the robot reaches the fire, the **water pump** is activated to spray water through the spray tube and extinguish the fire automatically.
+6. The robot can also be controlled manually using a mobile device through the **Bluetooth module**.
+7. An onboard **camera module** provides real-time monitoring, allowing users to observe the robot and its surroundings remotely.
+
+
 
 ## Project Components:
 
-
-| **Category**       | **Component**               | **Purpose**                                         |
-| ------------------ | --------------------------- | --------------------------------------------------- |
-| Controller         | Arduino Uno                 | Main controller of the robot                        |
-| Sensor             | Flame Detection Sensor      | Detects the presence of fire                        |
-| Sensor             | IR Sensor                   | Detects obstacles during navigation                 |
-| Motion             | Motor Driver Module         | Controls the speed and direction of the motors      |
-| Motion             | Gear Motors                 | Drive the movement of the robot                     |
-| Mechanical         | Robotic Chassis             | Provides the base structure of the robot            |
-| Mechanical         | Wheels                      | Enable the robot to move                            |
-| Fire Extinguishing | Water Tank                  | Stores water for firefighting                       |
-| Fire Extinguishing | Water Pump                  | Pumps water to extinguish the fire                  |
-| Fire Extinguishing | Spray Tube                  | Sprays water onto the fire                          |
-| Communication      | Bluetooth Module            | Enables remote control using a mobile device        |
-| Monitoring         | Camera Module               | Provides real-time monitoring                       |
-| Power              | Rechargeable Battery        | Supplies power to the robot                         |
-| Power              | Battery Charger             | Recharges the battery                               |
-| Circuit            | Breadboard                  | Used for prototyping and circuit connections        |
-| Circuit            | PCB (Printed Circuit Board) | Provides permanent circuit connections              |
-| Circuit            | Cables and Connectors       | Connect electronic components                       |
-| Circuit            | LEDs                        | Indicate the robot's operating status               |
-| Circuit            | Push Buttons                | Provide manual input and testing                    |
-| Circuit            | Switch                      | Turns the power on or off                           |
-| Circuit            | Diodes                      | Protect the circuit from reverse current            |
-| Circuit            | Integrated Circuits (ICs)   | Support electronic control functions                |
-| Software           | Arduino IDE                 | Used to write, compile, and upload Arduino programs |
-| Software           | Keil µVision IDE            | Used for embedded system programming                |
-| Software           | Programming Language: C     | Used to develop the robot's control logic           |
-
-
-
-
+| **Component**               | **Type**             | **Purpose**                   |
+| --------------------------- | -------------------- | ----------------------------- |
+| Arduino Uno                 | Controller           | Main controller               |
+| Flame Detection Sensor      | Sensor               | Detects fire                  |
+| IR Sensor                   | Sensor               | Detects obstacles             |
+| Motor Driver Module         | Driver               | Controls motors               |
+| Gear Motors                 | Actuator             | Provides movement             |
+| Robotic Chassis             | Mechanical           | Supports the robot structure  |
+| Wheels                      | Mechanical           | Enable movement               |
+| Water Tank                  | Fire Extinguishing   | Stores water                  |
+| Water Pump                  | Fire Extinguishing   | Pumps water                   |
+| Spray Tube                  | Fire Extinguishing   | Sprays water                  |
+| Bluetooth Module            | Communication        | Enables mobile control        |
+| Camera Module               | Monitoring           | Provides live monitoring      |
+| Rechargeable Battery        | Power Supply         | Supplies power                |
+| Battery Charger             | Power Supply         | Charges the battery           |
+| Breadboard                  | Circuit              | Prototypes circuits           |
+| PCB (Printed Circuit Board) | Circuit              | Permanent circuit connections |
+| Cables and Connectors       | Circuit              | Connect components            |
+| LEDs                        | Indicator            | Show system status            |
+| Push Buttons                | Input                | Manual control                |
+| Switch                      | Input                | Power on/off                  |
+| Diodes                      | Protection           | Prevent reverse current       |
+| Integrated Circuits (ICs)   | Electronic Component | Support electronic control    |
+| Arduino IDE                 | Software             | Programs the Arduino          |
+| Keil µVision IDE            | Software             | Embedded development          |
+| C Programming               | Programming Language | Develops control logic        |
 
 
  

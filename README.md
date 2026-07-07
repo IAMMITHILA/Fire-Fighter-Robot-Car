@@ -21,5 +21,76 @@ Our team **Tech Lightning** consisted of 7 members. My fellow team members are:
 Our **Fire Fighter Robot Car** is basically an **Arduino Uno based robotic system** designed to automatically detect and extinguish fires in hazardous environments where human access may be difficult or unsafe. The robot car can also be controlled remotely using a mobile device and an onboard camera provides live monitoring of the surrounding area.
 
 
+## Project Components:
+
+# Hardware Specifications
+
+### 🔹 Controller
+
+| **Component** | **Purpose**     |
+| ------------- | --------------- |
+| Arduino Uno   | Main controller |
+
+### 🔹 Sensors
+
+| **Component**          | **Purpose**       |
+| ---------------------- | ----------------- |
+| Flame Detection Sensor | Detects fire      |
+| IR Sensor              | Detects obstacles |
+
+### 🔹 Actuators & Motion
+
+| **Component**       | **Purpose**                        |
+| ------------------- | ---------------------------------- |
+| Motor Driver Module | Controls the motors                |
+| Gear Motors         | Provides robot movement            |
+| Water Pump          | Pumps water to extinguish the fire |
+| Spray Tube          | Sprays water onto the fire         |
+
+### 🔹 Communication & Monitoring
+
+| **Component**    | **Purpose**              |
+| ---------------- | ------------------------ |
+| Bluetooth Module | Enables mobile control   |
+| Camera Module    | Provides live monitoring |
+
+### 🔹 Mechanical Components
+
+| **Component**   | **Purpose**                  |
+| --------------- | ---------------------------- |
+| Robotic Chassis | Supports the robot structure |
+| Wheels          | Enable robot movement        |
+| Water Tank      | Stores water                 |
+
+### 🔹 Power Supply
+
+| **Component**        | **Purpose**                 |
+| -------------------- | --------------------------- |
+| Rechargeable Battery | Supplies power to the robot |
+| Battery Charger      | Charges the battery         |
+
+### 🔹 Circuit Components
+
+| **Component**               | **Purpose**                            |
+| --------------------------- | -------------------------------------- |
+| Breadboard                  | Used for circuit prototyping           |
+| PCB (Printed Circuit Board) | Provides permanent circuit connections |
+| Cables and Connectors       | Connect electronic components          |
+| LEDs                        | Indicate the robot's status            |
+| Push Buttons                | Provide manual input                   |
+| Switch                      | Turns the power on or off              |
+| Diodes                      | Protect the circuit                    |
+| Integrated Circuits (ICs)   | Support electronic control             |
+
+## 💻 Software Specifications
+
+| **Software**            | **Purpose**                                         |
+| ----------------------- | --------------------------------------------------- |
+| Arduino IDE             | Used to write, compile, and upload Arduino programs |
+| Keil µVision IDE        | Used for embedded system programming                |
+| Programming Language: C | Used to develop the robot's control logic           |
+
+
+
 
  
